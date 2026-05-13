@@ -105,25 +105,19 @@ Jaunmārupe Bogwoodland Project/
 │   └── butterflies/
 │       └── transect_design.gpkg                # To be added once finalised
 │
-├── data/
-│   ├── raw/
-│   │   ├── drainage_network/
-│   │   │   └── purva_gravji.gpkg               # Main ditch network from Rīgas meži
-│   │   ├── elevation/
-│   │   │   └── dtm_1m_metadata.txt             # 1m DTM (data too large for repo)
-│   │   └── satellite/
-│   │       └── ndmi_summer2023_metadata.txt    # Sentinel-2 NDMI metadata
-│   └── processed/
-│       └── habitat_classification/
-│           └── eunis_classified_raster_metadata.txt
-│
-├── references/
-│   └── bibliography.bib                        # Full reference list in BibTeX
-│
-└── docs/
-    ├── site_description.md                     # Plain language site summary
-    ├── metric_basket_rationale.md              # Justification for chosen metrics
-    └── monitoring_protocol.md                  # Survey standardisation protocol
+└── data/
+    ├── raw/
+    │   ├── drainage_network/
+    │   │   └── purva_gravji.gpkg               # Main ditch network from Rīgas meži
+    │   ├── elevation/
+    │   │   └── dtm_1m_metadata.txt             # 1m DTM (data too large for repo)
+    │   └── satellite/
+    │       └── ndmi_summer2023_metadata.txt    # Sentinel-2 NDMI metadata
+    └── processed/
+        └── habitat_classification/
+            └── eunis_classified_raster_metadata.txt
+
+
 ```
 
 ---

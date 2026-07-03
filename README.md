@@ -70,10 +70,6 @@ Jaunmārupe Bogwoodland Project/
 │   ├── project_boundary/
 │   │   ├── jaunmarupe_site.gpkg
 │   │   └── jaunmarupe_site_metadata.md
-│   ├── habitat_map/
-│   │   ├── eunis_habitat_map_jaunmarupe.gpkg
-│   │   ├── eunis_habitat_map_jaunmarupe_final.png
-│   │   └── eunis_habitat_map_metadata.txt
 │   ├── reference_site/
 │   │   ├── cenas_tirelis.gpkg
 │   │   └── cenas_tirelis_metadata.txt
@@ -85,17 +81,10 @@ Jaunmārupe Bogwoodland Project/
 │       └── spillover_zone_metadata.txt
 │
 ├── scripts/
-│   ├── habitat_map/
-│   │   ├── eunis_habitat_classification.py     # EUNIS probability model processing
-│   │   └── canopy_height_verification.py       # Meta/GLAD CHM forest fill
-│   │
-│   ├── maps/
-│   │   ├── jaunmarupe_surrounding_areas_map.py            # Produces Q8 figure
-│   │   ├── rewetting_potential.py                         # Produces Q13 figure
-│   │   └── spillover_zone.py                              # Produces Q21 figure
-│   └── remote_sensing/
-│       ├── ndmi_surface_water.py               # Sentinel-2 NDMI bare peat analysis
-│       └── water_table_proxy.py                # ET proxy + SAR water level dynamics
+│   └── maps/
+│       ├── jaunmarupe_surrounding_areas_map.py            # Produces Q8 figure
+│       ├── rewetting_potential.py                         # Produces Q13 figure
+│       └── spillover_zone.py                              # Produces Q21 figure
 │
 ├── monitoring/
 │   ├── water_table/
@@ -114,10 +103,11 @@ Jaunmārupe Bogwoodland Project/
     │   ├── elevation/
     │   │   └── dtm_1m_metadata.txt             # 1m DTM (data too large for repo)
     │   └── satellite/
-    │       └── ndmi_summer2023_metadata.txt    # Sentinel-2 NDMI metadata
-    └── processed/
-        └── habitat_classification/
-            └── eunis_classified_raster_metadata.txt
+    │       └── Jaunmarupe_Orthophotos          # Orthophotos from project site
+    │
+    └── proprietary/
+            └── project_frame.png               # aeco's project frame for figures
+
 
 
 ```
@@ -126,7 +116,7 @@ Jaunmārupe Bogwoodland Project/
 
 ## Data Notes
 
-Large raster datasets (1 m DTM, Sentinel-2 imagery, Global Canopy Height Model)
+Large raster datasets (1 m DTM)
 are not stored directly in this repository due to file size constraints. Metadata
 files in `data/raw/` provide full source references, acquisition dates, and
 coordinate reference systems for all datasets used.

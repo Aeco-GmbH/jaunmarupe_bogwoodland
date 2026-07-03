@@ -99,7 +99,7 @@ Jaunmārupe Bogwoodland Project/
 └── data/
     ├── raw/
     │   ├── drainage_network/
-    │   │   └── MKIS_20180612_metadata.md                        # Main ditch network from Rīgas meži
+    │   │   └── MKIS_20180612_metadata.md                        # Latvian national melioration drainage network — MKIS
     │   ├── elevation/
     │   │   └── Jaunmarupe_Bogwoodland_DTM_README.md             # 1m DTM (data too large for repo)
     │   └── satellite/

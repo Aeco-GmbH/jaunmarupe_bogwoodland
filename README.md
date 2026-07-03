@@ -68,15 +68,15 @@ Jaunmārupe Bogwoodland Project/
 │
 ├── maps/
 │   ├── project_boundary/
-│   │   ├── jaunmarupe_boundary.gpkg
-│   │   └── jaunmarupe_boundary_metadata.txt
+│   │   ├── jaunmarupe_site.gpkg
+│   │   └── jaunmarupe_site_metadata.md
 │   ├── habitat_map/
 │   │   ├── eunis_habitat_map_jaunmarupe.gpkg
 │   │   ├── eunis_habitat_map_jaunmarupe_final.png
 │   │   └── eunis_habitat_map_metadata.txt
 │   ├── reference_site/
-│   │   ├── cenas_tirelis_NR_boundary.gpkg
-│   │   └── cenas_tirelis_NR_metadata.txt
+│   │   ├── cenas_tirelis.gpkg
+│   │   └── cenas_tirelis_metadata.txt
 │   ├── landscape_context/
 │   │   ├── jaunmarupe_surrounding_areas.gpkg
 │   │   └── jaunmarupe_surrounding_areas.png

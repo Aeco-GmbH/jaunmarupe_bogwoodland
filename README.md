@@ -80,17 +80,19 @@ Jaunmārupe Bogwoodland Project/
 │   ├── landscape_context/
 │   │   ├── jaunmarupe_surrounding_areas.gpkg
 │   │   └── jaunmarupe_surrounding_areas.png
-│   └── leakage_zone/
-│       ├── leakage_zone_500m_buffer.gpkg
-│       └── leakage_zone_metadata.txt
+│   └── spillover_zone/
+│       ├── spillover_zone_500m_buffer.gpkg
+│       └── spillover_zone_metadata.txt
 │
 ├── scripts/
 │   ├── habitat_map/
 │   │   ├── eunis_habitat_classification.py     # EUNIS probability model processing
 │   │   └── canopy_height_verification.py       # Meta/GLAD CHM forest fill
+│   │
 │   ├── maps/
-│   │   ├── landscape_context_map.py            # Produces Q8 figure
-│   │   └── habitat_map_figure.py               # Produces Q9 figure
+│   │   ├── jaunmarupe_surrounding_areas_map.py            # Produces Q8 figure
+│   │   ├── rewetting_potential.py                         # Produces Q13 figure
+│   │   └── spillover_zone.py                              # Produces Q21 figure
 │   └── remote_sensing/
 │       ├── ndmi_surface_water.py               # Sentinel-2 NDMI bare peat analysis
 │       └── water_table_proxy.py                # ET proxy + SAR water level dynamics

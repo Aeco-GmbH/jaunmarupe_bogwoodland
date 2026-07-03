@@ -99,14 +99,14 @@ Jaunmārupe Bogwoodland Project/
 └── data/
     ├── raw/
     │   ├── drainage_network/
-    │   │   └── purva_gravji.gpkg               # Main ditch network from Rīgas meži
+    │   │   └── MKIS_20180612_metadata.md                        # Main ditch network from Rīgas meži
     │   ├── elevation/
-    │   │   └── dtm_1m_metadata.txt             # 1m DTM (data too large for repo)
+    │   │   └── Jaunmarupe_Bogwoodland_DTM_README.md             # 1m DTM (data too large for repo)
     │   └── satellite/
-    │       └── Jaunmarupe_Orthophotos          # Orthophotos from project site
+    │       └── Jaunmarupe_Orthophotos                           # Orthophotos from project site
     │
     └── proprietary/
-            └── project_frame.png               # aeco's project frame for figures
+            └── project_frame.png                                # aeco's project frame for figures
 
 
 
